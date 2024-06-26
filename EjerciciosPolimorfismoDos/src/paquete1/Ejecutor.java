@@ -43,8 +43,14 @@ public class Ejecutor {
         listaArriendos.add(arriendoComida);
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
+           listaArriendos.add(arriendoComida2);
         
         for (int i = 0; i < listaArriendos.size(); i++) {
+            /*
+            aqui lo que estamos haciendo es lisa arreglos en la posicion con ceretesa no sabemos
+            que es pero lo que si sabemos es que lsita arriendos obtiene todo de las sub clases
+            
+            */
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto
             System.out.println(listaArriendos.get(i));
