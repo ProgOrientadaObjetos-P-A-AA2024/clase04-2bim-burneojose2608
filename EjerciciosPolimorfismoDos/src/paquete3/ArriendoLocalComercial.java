@@ -19,6 +19,8 @@ public class ArriendoLocalComercial extends Arriendo {
         super(nombre, cuotaB);
     }
 
+   
+
     @Override
     public void establecerNombreArrendatario(String nombre) {
         nombreArrendatario = nombre.toUpperCase();
